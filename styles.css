@@ -1,0 +1,33 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+} 
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-items {
+    text-decoration: none;
+    user-select: none;
+    padding: 5px;
+    color: black;
+}
+.list-items:hover {
+    background-color: rgba(66,166,209,255);
+    border-radius: 3px;
+    color: white;
+    transition: ease-in-out 350ms;
+}
+.content {
+    margin: 20%;
+    margin-top: 5%;
+}
